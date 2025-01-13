@@ -21,7 +21,98 @@
     <title>Frontend Mentor | Blog preview card</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style></style>
+    <style>
+      body {
+        background-color: hsl(47, 88%, 63%);
+      }
+
+      .card {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 290px;
+        padding: 13px;
+        border: solid black 1px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: 5px 5px 0px 0px;
+      }
+
+      .main {
+        border-radius: 10px;
+      }
+
+      .learn {
+        background-color: hsl(47, 88%, 63%);
+        width: 50px;
+        text-align: center;
+        padding: 3px;
+        margin-top: 15px;
+        border-radius: 3px;
+        margin-bottom: 3px;
+        font-family: "Figtree", "Courier New", Courier, monospace;
+      }
+
+      .date {
+        font-size: 9px;
+        font-weight: 600;
+        margin-top: 5px;
+        font-family: "Figtree", "Courier New", Courier, monospace;
+      }
+
+      h1 {
+        font-size: 14px;
+        font-weight: 800;
+        margin-top: 5px;
+        font-family: "Figtree", "Courier New", Courier, monospace;
+      }
+      .blah {
+        color: hsl(0, 0%, 42%);
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Figtree", "Courier New", Courier, monospace;
+      }
+
+      .author {
+        display: flex;
+        align-items: center;
+        font-family: "Figtree", "Courier New", Courier, monospace;
+        font-size: 12px;
+      }
+
+      .dp {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="card">
+      <img
+        src="./assets/images/illustration-article.svg"
+        alt="illustration"
+        class="main"
+      />
+      <h6 class="learn">Learning</h6>
+      <p class="date">Published 13 Jan 2025</p>
+      <h1>HTML & CSS Foundations</h1>
+      <p class="blah">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis
+        nostrum ut architecto obcaecati. Ipsam.
+      </p>
+      <div class="author">
+        <img
+          src=".\assets\images\image-avatar.webp"
+          alt="handsome man"
+          class="dp"
+        />
+        <h6 class="name">Shree Raj Chettri</h6>
+      </div>
+    </div>
+  </body>
 </html>
