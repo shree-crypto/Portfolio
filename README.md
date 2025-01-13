@@ -15,4 +15,4 @@ then hopefully leading to
 here is a checklist of all the projects that i complete
 
 - [x] [QR Card](https://portfolio-1two3mxbc-shree-cryptos-projects.vercel.app/)
-- [ ] 
+- [ ] Info Card
